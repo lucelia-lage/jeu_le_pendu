@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Le Pendu</title>
+</head>
+
+<body>
+    <main>
+        <h1>Le Pendu</h1>
+
+        <p id="hiddenWord"></p>
+
+        <p id="wrongLetters"></p>
+
+        <div class="alphabet">
+            <button class="alphabetBtn" value="a">A</button>
+            <button class="alphabetBtn" value="b">B</button>
+            <button class="alphabetBtn" value="c">C</button>
+            <button class="alphabetBtn" value="d">D</button>
+            <button class="alphabetBtn" value="e">E</button>
+            <button class="alphabetBtn" value="f">F</button>
+            <button class="alphabetBtn" value="g">G</button>
+            <button class="alphabetBtn" value="h">H</button>
+            <button class="alphabetBtn" value="i">I</button>
+            <button class="alphabetBtn" value="j">J</button>
+            <button class="alphabetBtn" value="k">K</button>
+            <button class="alphabetBtn" value="l">L</button>
+            <button class="alphabetBtn" value="m">M</button>
+            <button class="alphabetBtn" value="n">N</button>
+            <button class="alphabetBtn" value="o">O</button>
+            <button class="alphabetBtn" value="p">P</button>
+            <button class="alphabetBtn" value="q">Q</button>
+            <button class="alphabetBtn" value="r">R</button>
+            <button class="alphabetBtn" value="s">S</button>
+            <button class="alphabetBtn" value="t">T</button>
+            <button class="alphabetBtn" value="u">U</button>
+            <button class="alphabetBtn" value="v">V</button>
+            <button class="alphabetBtn" value="w">W</button>
+            <button class="alphabetBtn" value="x">X</button>
+            <button class="alphabetBtn" value="y">Y</button>
+            <button class="alphabetBtn" value="z">Z</button>
+        </div>
+
+        <div id="hangmanContainer">
+            <svg id="hangman" width="200" height="200" style="display: inline">
+                <line id="ground-part-structure" x1="0" y1="199" x2="120" y2="199" stroke="black" stroke-width="3"></line>
+                <line id="main-part-structure" x1="30" y1="0" x2="30" y2="200" stroke="black" stroke-width="4"></line>
+                <line id="top-part-structure" x1="30" y1="2" x2="130" y2="2" stroke="black" stroke-width="4"></line>
+                <line id="rope" x1="130" y1="20" x2="130" y2="0" stroke="black" stroke-width="2"></line>
+                <circle id="head" cx="130" cy="50" r="30" style="display: none;" stroke="black" stroke-width="3" fill="transparent"></circle>
+                <line id="body" x1="130" y1="80" x2="130" y2="130" style="display: none" stroke="black" stroke-width="3"></line>
+                <line id="left-arm" x1="130" y1="90" x2="100" y2="120" style="display: none" stroke="black" stroke-width="3"></line>
+                <line id="right-arm" x1="130" y1="90" x2="160" y2="120" style="display: none" stroke="black" stroke-width="3"></line>
+                <line id="left-leg" x1="130" y1="130" x2="100" y2="170" style="display: none" stroke="black" stroke-width="3"></line>
+                <line id="right-leg" x1="130" y1="130" x2="160" y2="170" style="display: none" stroke="black" stroke-width="3"></line>
+            </svg>
+        </div>
+
+        <div id="result"></div>
+
+        <button id="restartBtn">Recommencer</button>
+
+    </main>
+    <script src="./assets/js/mainThree.js"></script>
+</body>
+
+</html>

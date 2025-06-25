@@ -1,0 +1,94 @@
+body {
+    background-color: #dbd7c3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+#hiddenWord {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 0.2em;
+    color: #2c3e50;
+    min-height: 40px;
+}
+
+#wrongLetters {
+    font-size: 1.2em;
+    margin: 15px 0;
+    color: #e74c3c;
+    min-height: 25px;
+}
+
+.alphabet {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.alphabetBtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 40px;
+    font-weight: bold;
+}
+
+.alphabetBtn:hover:not(:disabled) {
+    background-color: #2980b9;
+}
+
+.alphabetBtn:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+#hangmanContainer {
+    margin: 20px 0;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 0;
+    min-height: 30px;
+    color: #2c3e50;
+}
+
+#restartBtn {
+    background-color: #27ae60;
+    color: white;
+    padding: 15px 30px;
+    margin: 20px 0;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#restartBtn:hover {
+    background-color: #229954;
+}

@@ -1,0 +1,51 @@
+Utiliser : 
+splice
+forEach 
+
+Cahier des charges du jeu "Pendu" en JavaScript
+
+1. Introduction
+
+Le jeu du Pendu est un classique où les joueurs doivent deviner un mot en proposant des lettres. 
+Chaque lettre incorrecte entraîne la progression d'une représentation graphique du pendu. 
+L'objectif est de créer une expérience interactive en utilisant JavaScript pour le développement.
+
+2. Fonctionnalités principales
+
+Mot à Deviner : 
+- Le jeu doit sélectionner un mot aléatoire à deviner parmi une liste prédéfinie. 
+- Le mot doit être caché au début du jeu.
+
+Interface Utilisateur : - Affichage graphique du pendu (progression basée sur les erreurs). 
+- Affichage du mot caché avec des espaces pour les lettres à deviner. 
+- Affichage des lettres proposées (correctes et incorrectes). 
+- Zone de saisie pour proposer une lettre.
+
+Proposition de Lettres : 
+- Les joueurs peuvent proposer des lettres pour deviner le mot. 
+- Gestion des lettres déjà proposées.
+
+Validation et Rétroaction : 
+- Vérification de la validité des lettres proposées. 
+- Affichage des lettres correctes dans le mot caché. 
+- Mise à jour de l'affichage du pendu en cas de lettre incorrecte. 
+- Rétroaction visuelle et sonore pour indiquer la validité de la proposition.
+
+Fin de Partie : 
+- Définir les conditions de victoire (mot correctement deviné) et de défaite (pendu complété). 
+- Affichage d'un message de victoire ou de défaite. 
+- Option de rejouer après la fin de la partie.
+
+3. Interface Utilisateur
+
+Écran d'Accueil : 
+- Affichage d'un menu principal avec l'option "Commencer la partie".
+
+Écran de Jeu : 
+- Affichage du pendu, du mot caché et des lettres proposées. 
+- Zone de saisie pour proposer une lettre.
+
+Écran de Fin de Partie : 
+- Affichage du mot correct si la partie est perdue. 
+- Message de félicitations en cas de victoire. 
+- Option de rejouer.
