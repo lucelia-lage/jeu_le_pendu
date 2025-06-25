@@ -24,7 +24,7 @@ Un jeu du pendu classique développé en JavaScript avec une interface graphique
 
 Le jeu utilise l'API [Random Word API](https://random-word-api.herokuapp.com/) pour récupérer des mots français aléatoirement. En cas d'indisponibilité de l'API, le jeu bascule automatiquement sur une liste de mots français prédéfinie.
 
-## 📝 Améliorations possibles
+## Améliorations possibles
 
 - Ajout de niveaux de difficulté
 - Système de score et statistiques
@@ -33,11 +33,3 @@ Le jeu utilise l'API [Random Word API](https://random-word-api.herokuapp.com/) p
 - Thèmes visuels personnalisables
 - Support des caractères accentués
 - Animations CSS avancées
-
-## 👨‍💻 Auteur
-
-Développé avec ❤️ par [Votre Nom]
-
----
-
-⭐ N'hésitez pas à donner une étoile si ce projet vous a plu !
